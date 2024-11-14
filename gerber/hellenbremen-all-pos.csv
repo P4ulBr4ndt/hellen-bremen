@@ -1,0 +1,11 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"J1","~","TE81PINHD",12.296000,-36.200000,-90.000000,top
+"J3","USB_C_Receptacle_USB2.0_16P","USB_C_Receptacle_GCT_USB4110",98.402000,-82.936000,90.000000,top
+"M1","Module-stlink-0.1","stlink",90.382006,-57.239003,-90.000000,top
+"M2","Module-power_12and5V-0.2","power_12and5V",28.812999,-82.543001,0.000000,top
+"M3","Module-mega-mcu144-0.6","mega-mcu144",47.235000,-37.526999,-90.000000,top
+"M4","Module-vr-max9924-0.1","vr-max9924",29.788995,-60.549501,0.000000,top
+"M5","Module-knock-0.2","knock",29.438995,-50.001003,0.000000,top
+"R1","5.1K","R_0402_1005Metric",92.560000,-81.158000,180.000000,top
+"R2","5.1K","R_0402_1005Metric",92.562000,-84.206000,180.000000,top
+"U1","RNBD451PE-I100","MOD39_15p5X20p7X2p8_ZSX_MCH",97.250000,-19.424000,-90.000000,top
