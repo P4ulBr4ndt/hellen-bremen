@@ -8,4 +8,6 @@
   (lib (name "0.3")(type "KiCad")(uri "/Users/paulbrandt/Desktop/hellen-bremen/hellen-one/modules/vr-max9924/0.3")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "/Users/paulbrandt/Desktop/hellen-bremen/ul_RNBD451PE-I100/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "hellen_knock")(type "KiCad")(uri "/Users/paulbrandt/Desktop/hellen-bremen/hellen-one/modules/knock/0.2")(options "")(descr ""))
+  (lib (name "VND3NV04-E")(type "KiCad")(uri "${KIPRJMOD}/ul_VND3NV04-E/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "VNLD5160TR-E")(type "KiCad")(uri "${KIPRJMOD}/ul_VNLD5160TR-E/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
