@@ -14,6 +14,7 @@
 "Module-mega-mcu144-0.6","M3","0.6:mega-mcu144",""
 "Module-vr-max9924-0.1","M4","0.3:vr-max9924",""
 "Module-knock-0.2","M5","hellen_knock:knock",""
+"Module-knock-0.2","M6","hellen_knock:knock",""
 "ISL9V3040D3ST","Q1","TO-252AA_ONS",""
 "ISL9V3040D3ST","Q2","TO-252AA_ONS",""
 "5.1K","R1","Resistor_SMD:R_0402_1005Metric",""
