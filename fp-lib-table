@@ -11,4 +11,5 @@
   (lib (name "VND3NV04-E")(type "KiCad")(uri "${KIPRJMOD}/ul_VND3NV04-E/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "VNLD5160TR-E")(type "KiCad")(uri "${KIPRJMOD}/ul_VNLD5160TR-E/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "ISL9V3040D3ST")(type "KiCad")(uri "${KIPRJMOD}/ul_ISL9V3040D3ST/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "kicad6-libraries")(type "KiCad")(uri "${KIPRJMOD}/kicad6-libraries")(options "")(descr ""))
 )
