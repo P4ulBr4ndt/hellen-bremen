@@ -10,4 +10,5 @@
   (lib (name "VND3NV04-E")(type "KiCad")(uri "${KIPRJMOD}/ul_VND3NV04-E/KiCADv6/2024-11-15_19-52-05.kicad_sym")(options "")(descr ""))
   (lib (name "VNLD5160TR-E")(type "KiCad")(uri "${KIPRJMOD}/ul_VNLD5160TR-E/KiCADv6/2024-11-15_23-35-11.kicad_sym")(options "")(descr ""))
   (lib (name "ISL9V3040D3ST")(type "KiCad")(uri "${KIPRJMOD}/ul_ISL9V3040D3ST/KiCADv6/2024-11-17_21-19-40.kicad_sym")(options "")(descr ""))
+  (lib (name "wbo")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/wbo/0.5/wbo.kicad_sym")(options "")(descr ""))
 )

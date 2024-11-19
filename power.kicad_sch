@@ -245,6 +245,126 @@
 				)
 			)
 		)
+		(symbol "power:+5VP"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5VP"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5VP\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5VP_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VP_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -601,9 +721,25 @@
 			)
 		)
 	)
+	(junction
+		(at 100.33 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47be80b9-979f-42f1-b290-d4f59884241a")
+	)
 	(no_connect
 		(at 156.21 73.66)
 		(uuid "d3a0d307-f0f5-4d77-9163-f38b695cd631")
+	)
+	(wire
+		(pts
+			(xy 156.21 83.82) (xy 161.29 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a2d944f-3848-4a34-b3a3-1808629b5b3a")
 	)
 	(wire
 		(pts
@@ -627,6 +763,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 73.66) (xy 107.95 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54938cf6-df48-4142-9187-5afe1e53ad06")
+	)
+	(wire
+		(pts
 			(xy 156.21 71.12) (xy 161.29 71.12)
 		)
 		(stroke
@@ -647,23 +793,33 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 73.66) (xy 99.06 73.66)
+			(xy 100.33 71.12) (xy 107.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820365b4-9b79-480f-ba32-bf6c9440ee90")
+	)
+	(wire
+		(pts
+			(xy 100.33 71.12) (xy 100.33 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e4a6f0-18f7-45f6-9ec8-d53591ada4fe")
+	)
+	(wire
+		(pts
+			(xy 100.33 71.12) (xy 99.06 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ad2a1b03-b8aa-4354-8539-11071004ebda")
-	)
-	(wire
-		(pts
-			(xy 107.95 71.12) (xy 99.06 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2025341-4716-4842-bdc0-4a8aebe7aeb1")
 	)
 	(wire
 		(pts
@@ -685,7 +841,17 @@
 		)
 		(uuid "f52302fc-3409-479d-a2f5-8b08fcde8f23")
 	)
-	(global_label "+12V_PSP"
+	(text "TODO: PSP = IGNITION BASED?"
+		(exclude_from_sim no)
+		(at 83.82 75.438 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0a27200c-f9a9-4569-9d4a-df3cdb0b9e15")
+	)
+	(global_label "+12V_BAT"
 		(shape input)
 		(at 99.06 71.12 180)
 		(fields_autoplaced yes)
@@ -695,31 +861,9 @@
 			)
 			(justify right)
 		)
-		(uuid "2b91fa65-defd-4acc-ad68-71634a9c1753")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.2777 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+12V_BAT"
-		(shape input)
-		(at 99.06 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
 		(uuid "7904d17d-a861-4394-85ac-4f5640b14e24")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.701 73.66 0)
+			(at 86.701 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -885,6 +1029,73 @@
 			(project "hellenbremen"
 				(path "/83409e39-90d0-4c85-be2e-bd292bea7c12/c821ec8f-5107-4775-a1b2-7b03d20e14b3"
 					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VP")
+		(at 161.29 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1af00e7a-645e-4994-8e0e-163609d7fa5c")
+		(property "Reference" "#PWR053"
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 165.1 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 161.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43dd3f06-49eb-4ecc-bbd3-6055d2466405")
+		)
+		(instances
+			(project ""
+				(path "/83409e39-90d0-4c85-be2e-bd292bea7c12/c821ec8f-5107-4775-a1b2-7b03d20e14b3"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
