@@ -18430,7 +18430,7 @@
 		(path "/fcab3238-1e9b-4b8c-ae9e-e0885165363c")
 		(sheetname "Root")
 		(sheetfile "hellenbremen.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -17.3 7.1)
 			(end 50.9 7.1)
