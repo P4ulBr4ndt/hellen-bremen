@@ -659,7 +659,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(sheetname "Root")
 		(sheetfile "hellenbremen.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1.25 0)
@@ -5337,7 +5337,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(sheetname "Root")
 		(sheetfile "hellenbremen.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1.25 0)
@@ -6705,7 +6705,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(sheetname "Root")
 		(sheetfile "hellenbremen.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1.25 0)
@@ -17010,7 +17010,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(sheetname "Root")
 		(sheetfile "hellenbremen.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1.25 0)
