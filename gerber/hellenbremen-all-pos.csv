@@ -6,10 +6,10 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "D1","GREEN","LED_0402_1005Metric",77.470000,81.049000,-90.000000,top
 "D2","BLUE","LED_0402_1005Metric",89.916000,97.790000,90.000000,top
 "D3","RED","LED_0402_1005Metric",92.551000,78.994000,0.000000,top
-"FID1","Fiducial","Fiducial_1mm_Mask2mm",2.050000,104.900000,-90.000000,top
-"FID2","Fiducial","Fiducial_1mm_Mask2mm",99.400000,104.750000,90.000000,top
-"FID3","Fiducial","Fiducial_1mm_Mask2mm",2.050000,2.200000,-90.000000,top
-"FID4","Fiducial","Fiducial_1mm_Mask2mm",100.050000,2.050000,90.000000,top
+"FID1","Fiducial","Fiducial_1mm_Mask2mm",2.032000,105.156000,-90.000000,top
+"FID2","Fiducial","Fiducial_1mm_Mask2mm",100.076000,105.156000,90.000000,top
+"FID3","Fiducial","Fiducial_1mm_Mask2mm",2.032000,2.032000,-90.000000,top
+"FID4","Fiducial","Fiducial_1mm_Mask2mm",100.076000,2.032000,90.000000,top
 "J1","~","TE81PINHD",9.210000,69.500000,-90.000000,top
 "J2","Conn_01x03_Pin","PinHeader_1x03_P2.54mm_Vertical",92.441000,74.290000,-90.000000,top
 "J3","USB_C_Receptacle_USB2.0_16P","USB_C_Receptacle_GCT_USB4110",98.500000,20.000000,90.000000,top
