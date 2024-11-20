@@ -5258,6 +5258,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 83.82) (xy 168.91 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16832758-6cbe-4544-9ca8-5b65ec0cbcfd")
+	)
+	(wire
+		(pts
 			(xy 295.91 83.82) (xy 295.91 82.55)
 		)
 		(stroke
@@ -5315,6 +5325,16 @@
 			(type default)
 		)
 		(uuid "231cd621-0473-4eb7-a8c4-fff7439ac7dc")
+	)
+	(wire
+		(pts
+			(xy 160.02 81.28) (xy 168.91 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "282a9498-2be8-4cb2-b330-b8a85495501c")
 	)
 	(wire
 		(pts
@@ -6130,6 +6150,28 @@
 			)
 		)
 	)
+	(global_label "ETC_DIR"
+		(shape input)
+		(at 160.02 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7deebee2-010f-495a-88d3-bae17801c2a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.5358 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IN_CLT"
 		(shape input)
 		(at 160.02 167.64 180)
@@ -6473,6 +6515,28 @@
 		(uuid "e3b43b58-2766-401a-98b4-b34a45a8d1d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.4709 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ETC_PWM"
+		(shape input)
+		(at 160.02 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f09f887a-e629-42f1-8554-accace73170f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.5078 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

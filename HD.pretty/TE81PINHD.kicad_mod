@@ -366,7 +366,7 @@
 		)
 	)
 	(fp_text user "JSS"
-		(at 23.22813 -4.863825 90)
+		(at 23.22813 -5.1 90)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "76ec5d15-f0e5-40ba-82e2-be129ece1f4a")
@@ -784,8 +784,8 @@
 	)
 	(pad "" np_thru_hole circle
 		(at -23.2 0.3)
-		(size 3.6 3.6)
-		(drill 3.6)
+		(size 4.5 4.5)
+		(drill 4.5)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "61ff7f36-85ba-47bd-8da6-e309335f0784")
 	)
@@ -804,9 +804,9 @@
 		(uuid "9781c9ed-58d5-40e7-a6c7-f265ff4de303")
 	)
 	(pad "" np_thru_hole circle
-		(at 56.8 0)
-		(size 3.6 3.6)
-		(drill 3.6)
+		(at 56.8 0.3)
+		(size 4.5 4.5)
+		(drill 4.5)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "c0d6decf-c6ad-4ba9-8f33-456dda16857b")
 	)
