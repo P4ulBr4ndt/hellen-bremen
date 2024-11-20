@@ -6,7 +6,6 @@
 "GREEN","D1","LED_SMD:LED_0402_1005Metric",""
 "BLUE","D2","LED_SMD:LED_0402_1005Metric",""
 "RED","D3","LED_SMD:LED_0402_1005Metric",""
-"~","J1","HD:TE81PINHD",""
 "Conn_01x03_Pin","J2","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",""
 "USB_C_Receptacle_USB2.0_16P","J3","Connector_USB:USB_C_Receptacle_GCT_USB4110",""
 "Module-stlink-0.1","M1","0.1:stlink",""
