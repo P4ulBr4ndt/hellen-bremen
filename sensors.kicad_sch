@@ -156,6 +156,126 @@
 				)
 			)
 		)
+		(symbol "power:+5VA"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5VA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5VA\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5VA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -441,22 +561,26 @@
 		)
 	)
 	(no_connect
-		(at 102.87 48.26)
+		(at 90.17 36.83)
 		(uuid "65429fbf-3dc6-4282-853c-f04decf24073")
+	)
+	(no_connect
+		(at 90.17 41.91)
+		(uuid "de3c7f11-4285-4452-8252-63ff8f63ef3c")
 	)
 	(wire
 		(pts
-			(xy 63.5 129.54) (xy 63.5 135.89)
+			(xy 36.83 39.37) (xy 41.91 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25840ee6-bb56-4815-be2b-c69743bf8fb7")
+		(uuid "0deb33fb-08bf-4461-b627-7038203ad813")
 	)
 	(wire
 		(pts
-			(xy 88.9 114.3) (xy 99.06 114.3)
+			(xy 90.17 118.11) (xy 100.33 118.11)
 		)
 		(stroke
 			(width 0)
@@ -466,7 +590,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 43.18) (xy 107.95 43.18)
+			(xy 90.17 31.75) (xy 95.25 31.75)
 		)
 		(stroke
 			(width 0)
@@ -476,7 +600,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 114.3) (xy 30.48 114.3)
+			(xy 60.96 151.13) (xy 60.96 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731111eb-4e5f-46fa-9827-395f0c3c6b29")
+	)
+	(wire
+		(pts
+			(xy 41.91 118.11) (xy 31.75 118.11)
 		)
 		(stroke
 			(width 0)
@@ -486,7 +620,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 43.18) (xy 54.61 43.18)
+			(xy 33.02 31.75) (xy 41.91 31.75)
 		)
 		(stroke
 			(width 0)
@@ -496,7 +630,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 53.34) (xy 54.61 53.34)
+			(xy 38.1 41.91) (xy 41.91 41.91)
 		)
 		(stroke
 			(width 0)
@@ -506,7 +640,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 166.37) (xy 30.48 166.37)
+			(xy 40.64 173.99) (xy 30.48 173.99)
 		)
 		(stroke
 			(width 0)
@@ -516,7 +650,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 181.61) (xy 63.5 187.96)
+			(xy 63.5 189.23) (xy 63.5 187.96)
 		)
 		(stroke
 			(width 0)
@@ -526,7 +660,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 45.72) (xy 54.61 45.72)
+			(xy 67.31 100.33) (xy 67.31 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a864c9e8-f982-4b63-99bc-e81f81204cb1")
+	)
+	(wire
+		(pts
+			(xy 33.02 34.29) (xy 41.91 34.29)
 		)
 		(stroke
 			(width 0)
@@ -536,7 +680,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 166.37) (xy 99.06 166.37)
+			(xy 62.23 95.25) (xy 62.23 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb30fd9-7c84-4f3a-b933-53ad5281aa95")
+	)
+	(wire
+		(pts
+			(xy 88.9 173.99) (xy 99.06 173.99)
 		)
 		(stroke
 			(width 0)
@@ -544,9 +698,19 @@
 		)
 		(uuid "e10b61f7-db7b-4425-b3e3-dec5e986922b")
 	)
+	(wire
+		(pts
+			(xy 66.04 156.21) (xy 66.04 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa356cb3-5c5b-44fe-a3d1-1cba25042bf4")
+	)
 	(global_label "CRANK_LOW"
 		(shape input)
-		(at 45.72 45.72 180)
+		(at 33.02 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -556,7 +720,7 @@
 		)
 		(uuid "050e861d-5220-48b2-bdbb-28c203e18966")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.7281 45.72 0)
+			(at 19.0281 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -568,7 +732,7 @@
 	)
 	(global_label "RAW_KNOCK_R"
 		(shape input)
-		(at 30.48 114.3 180)
+		(at 31.75 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -578,7 +742,7 @@
 		)
 		(uuid "2acde9ca-2ebf-4d13-bdc3-5c9ad8777db7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.0086 114.3 0)
+			(at 15.2786 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -590,7 +754,7 @@
 	)
 	(global_label "MCU_KNOCK_R"
 		(shape input)
-		(at 99.06 114.3 0)
+		(at 100.33 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -600,7 +764,7 @@
 		)
 		(uuid "2c3017c2-cd20-43b3-b49c-50a9b19dbfbe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.7733 114.3 0)
+			(at 117.0433 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -612,7 +776,7 @@
 	)
 	(global_label "RAW_KNOCK_F"
 		(shape input)
-		(at 30.48 166.37 180)
+		(at 30.48 173.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -622,7 +786,7 @@
 		)
 		(uuid "6c183dae-80c5-4808-ae1b-094388c55473")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.19 166.37 0)
+			(at 14.19 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -632,9 +796,53 @@
 			)
 		)
 	)
+	(global_label "VREF1"
+		(shape input)
+		(at 62.23 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "770ff581-cd4f-4724-b683-720a8a45d93d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 86.4591 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VREF1"
+		(shape input)
+		(at 60.96 151.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "792276c8-0f5e-4546-a1ab-f86825b88d68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.96 142.3391 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU_KNOCK_F"
 		(shape input)
-		(at 99.06 166.37 0)
+		(at 99.06 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -644,7 +852,7 @@
 		)
 		(uuid "8f21ad0c-8eef-4d33-bdbc-d4b919737d44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.5919 166.37 0)
+			(at 115.5919 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -656,7 +864,7 @@
 	)
 	(global_label "IN_CRANK"
 		(shape input)
-		(at 107.95 43.18 0)
+		(at 95.25 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -666,7 +874,7 @@
 		)
 		(uuid "956bd756-0c4d-4d51-954e-b38311f3f980")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.0672 43.18 0)
+			(at 107.3672 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -678,7 +886,7 @@
 	)
 	(global_label "CRANK_HIGH"
 		(shape input)
-		(at 45.72 43.18 180)
+		(at 33.02 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -688,7 +896,7 @@
 		)
 		(uuid "9999fe51-0229-45e7-9739-9f7ff6276e60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.0023 43.18 0)
+			(at 18.3023 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -699,33 +907,34 @@
 		)
 	)
 	(symbol
-		(lib_id "knock:Module-knock-0.2")
-		(at 48.26 156.21 0)
+		(lib_id "power:+5VA")
+		(at 36.83 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "369c9c3d-a9b1-4d04-ac7f-24316b640d7b")
-		(property "Reference" "M5"
-			(at 91.44 160.0514 0)
+		(uuid "00c34ad9-4278-4393-bb9b-d9b3422efc96")
+		(property "Reference" "#PWR063"
+			(at 40.64 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "Module-knock-0.2"
-			(at 91.44 162.5914 0)
+		(property "Value" "+5VA"
+			(at 33.02 39.3701 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "hellen_knock:knock"
-			(at 64.008 162.814 0)
+		(property "Footprint" ""
+			(at 36.83 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -734,7 +943,139 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 156.21 0)
+			(at 36.83 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 36.83 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a3bccea-eb2c-450b-879d-dadd16012513")
+		)
+		(instances
+			(project "hellenbremen"
+				(path "/83409e39-90d0-4c85-be2e-bd292bea7c12/c21a1b91-ddb8-4e22-b099-7bd7440ec482"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VA")
+		(at 67.31 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22719b95-9fd3-4db7-ac20-5a02b08ce95c")
+		(property "Reference" "#PWR061"
+			(at 67.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 67.3099 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 67.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1da8bfcd-0baa-481a-ab8f-5a23d087a0e1")
+		)
+		(instances
+			(project "hellenbremen"
+				(path "/83409e39-90d0-4c85-be2e-bd292bea7c12/c21a1b91-ddb8-4e22-b099-7bd7440ec482"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "knock:Module-knock-0.2")
+		(at 48.26 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "369c9c3d-a9b1-4d04-ac7f-24316b640d7b")
+		(property "Reference" "M5"
+			(at 91.44 167.6714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Module-knock-0.2"
+			(at 91.44 170.2114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hellen_knock:knock"
+			(at 64.008 170.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,7 +1084,7 @@
 			)
 		)
 		(property "Description" "Hellen-One Knock Pre-amplifier Module"
-			(at 86.868 154.432 0)
+			(at 86.868 162.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -777,7 +1118,7 @@
 	)
 	(symbol
 		(lib_id "vr-max9924:Module-vr-max9924-0.1")
-		(at 62.23 40.64 0)
+		(at 49.53 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -786,7 +1127,7 @@
 		(fields_autoplaced yes)
 		(uuid "43042225-1f93-4e65-b286-69955a4ac174")
 		(property "Reference" "M4"
-			(at 78.74 35.56 0)
+			(at 66.04 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -794,7 +1135,7 @@
 			)
 		)
 		(property "Value" "Module-vr-max9924-0.1"
-			(at 78.74 38.1 0)
+			(at 66.04 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -802,7 +1143,7 @@
 			)
 		)
 		(property "Footprint" "0.3:vr-max9924"
-			(at 87.63 39.37 0)
+			(at 74.93 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -811,7 +1152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 40.64 0)
+			(at 49.53 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -820,7 +1161,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 40.64 0)
+			(at 49.53 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -860,7 +1201,7 @@
 	)
 	(symbol
 		(lib_id "knock:Module-knock-0.2")
-		(at 48.26 104.14 0)
+		(at 49.53 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -869,7 +1210,7 @@
 		(fields_autoplaced yes)
 		(uuid "43d2c9b6-ad70-4053-bde6-e348ac27e3a2")
 		(property "Reference" "M6"
-			(at 91.44 107.9814 0)
+			(at 92.71 111.7914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -877,7 +1218,7 @@
 			)
 		)
 		(property "Value" "Module-knock-0.2"
-			(at 91.44 110.5214 0)
+			(at 92.71 114.3314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -885,7 +1226,7 @@
 			)
 		)
 		(property "Footprint" "hellen_knock:knock"
-			(at 64.008 110.744 0)
+			(at 65.278 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -894,7 +1235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 104.14 0)
+			(at 49.53 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -903,7 +1244,7 @@
 			)
 		)
 		(property "Description" "Hellen-One Knock Pre-amplifier Module"
-			(at 86.868 102.362 0)
+			(at 88.138 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,7 +1278,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 135.89 0)
+		(at 64.77 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -946,7 +1287,7 @@
 		(fields_autoplaced yes)
 		(uuid "9717f48f-fcb7-45c6-adb1-48e01b8fd7dd")
 		(property "Reference" "#PWR046"
-			(at 63.5 142.24 0)
+			(at 64.77 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -955,7 +1296,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 140.97 0)
+			(at 64.77 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -963,7 +1304,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 135.89 0)
+			(at 64.77 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,7 +1313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 135.89 0)
+			(at 64.77 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -981,7 +1322,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 135.89 0)
+			(at 64.77 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1003,7 +1344,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 53.34 270)
+		(at 38.1 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1012,7 +1353,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7420b9b-6264-4776-8995-7ec227f07fc1")
 		(property "Reference" "#PWR023"
-			(at 44.45 53.34 0)
+			(at 31.75 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1021,7 +1362,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 53.3399 90)
+			(at 34.29 41.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1030,7 +1371,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 53.34 0)
+			(at 38.1 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1039,7 +1380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 53.34 0)
+			(at 38.1 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1048,7 +1389,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 53.34 0)
+			(at 38.1 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1129,6 +1470,73 @@
 			(project ""
 				(path "/83409e39-90d0-4c85-be2e-bd292bea7c12/c21a1b91-ddb8-4e22-b099-7bd7440ec482"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VA")
+		(at 66.04 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3587847-12a6-46f9-810d-3919e7b60cd7")
+		(property "Reference" "#PWR062"
+			(at 66.04 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 66.0399 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 66.04 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00c5ee54-85b0-4bf9-a79c-6adde808949f")
+		)
+		(instances
+			(project "hellenbremen"
+				(path "/83409e39-90d0-4c85-be2e-bd292bea7c12/c21a1b91-ddb8-4e22-b099-7bd7440ec482"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
