@@ -682,7 +682,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "37666fce-8573-4cc2-b2e9-d4c1aeecdaa8")
 	)
-	(model "${KIPRJMOD}/ul_VNLD5160TR-E/SO_160TR-E_STM.step"
+	(model "${KIPRJMOD}/Library/ul_VNLD5160TR-E/SO_160TR-E_STM.step"
 		(offset
 			(xyz 0 0 0)
 		)

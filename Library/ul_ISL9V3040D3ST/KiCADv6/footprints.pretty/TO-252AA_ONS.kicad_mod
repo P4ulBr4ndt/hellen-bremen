@@ -511,7 +511,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "60945b06-fc5e-4897-a01d-ad32778d6b24")
 	)
-	(model "${KIPRJMOD}/ul_VND3NV04-E/DPAK_VND3_STM.step"
+	(model "${KIPRJMOD}/Library/ul_ISL9V3040D3ST/TO252-DPAK.STP"
 		(offset
 			(xyz 0 0 0)
 		)

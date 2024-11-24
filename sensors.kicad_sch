@@ -580,7 +580,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 118.11) (xy 100.33 118.11)
+			(xy 90.17 96.52) (xy 100.33 96.52)
 		)
 		(stroke
 			(width 0)
@@ -600,7 +600,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 151.13) (xy 60.96 156.21)
+			(xy 60.96 139.7) (xy 60.96 144.78)
 		)
 		(stroke
 			(width 0)
@@ -610,7 +610,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 118.11) (xy 31.75 118.11)
+			(xy 41.91 96.52) (xy 31.75 96.52)
 		)
 		(stroke
 			(width 0)
@@ -640,7 +640,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 173.99) (xy 30.48 173.99)
+			(xy 40.64 162.56) (xy 30.48 162.56)
 		)
 		(stroke
 			(width 0)
@@ -650,7 +650,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 189.23) (xy 63.5 187.96)
+			(xy 63.5 177.8) (xy 63.5 176.53)
 		)
 		(stroke
 			(width 0)
@@ -660,7 +660,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 100.33) (xy 67.31 99.06)
+			(xy 67.31 78.74) (xy 67.31 77.47)
 		)
 		(stroke
 			(width 0)
@@ -680,7 +680,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 95.25) (xy 62.23 100.33)
+			(xy 62.23 73.66) (xy 62.23 78.74)
 		)
 		(stroke
 			(width 0)
@@ -690,7 +690,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 173.99) (xy 99.06 173.99)
+			(xy 88.9 162.56) (xy 99.06 162.56)
 		)
 		(stroke
 			(width 0)
@@ -700,7 +700,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 156.21) (xy 66.04 153.67)
+			(xy 66.04 144.78) (xy 66.04 142.24)
 		)
 		(stroke
 			(width 0)
@@ -732,7 +732,7 @@
 	)
 	(global_label "RAW_KNOCK_R"
 		(shape input)
-		(at 31.75 118.11 180)
+		(at 31.75 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -742,7 +742,7 @@
 		)
 		(uuid "2acde9ca-2ebf-4d13-bdc3-5c9ad8777db7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.2786 118.11 0)
+			(at 15.2786 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -754,7 +754,7 @@
 	)
 	(global_label "MCU_KNOCK_R"
 		(shape input)
-		(at 100.33 118.11 0)
+		(at 100.33 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -764,7 +764,7 @@
 		)
 		(uuid "2c3017c2-cd20-43b3-b49c-50a9b19dbfbe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.0433 118.11 0)
+			(at 117.0433 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -776,7 +776,7 @@
 	)
 	(global_label "RAW_KNOCK_F"
 		(shape input)
-		(at 30.48 173.99 180)
+		(at 30.48 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -786,7 +786,7 @@
 		)
 		(uuid "6c183dae-80c5-4808-ae1b-094388c55473")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.19 173.99 0)
+			(at 14.19 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -796,9 +796,9 @@
 			)
 		)
 	)
-	(global_label "VREF1"
+	(global_label "VREF2"
 		(shape input)
-		(at 62.23 95.25 90)
+		(at 62.23 73.66 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -808,7 +808,7 @@
 		)
 		(uuid "770ff581-cd4f-4724-b683-720a8a45d93d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.23 86.4591 90)
+			(at 62.23 64.8691 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -820,7 +820,7 @@
 	)
 	(global_label "VREF1"
 		(shape input)
-		(at 60.96 151.13 90)
+		(at 60.96 139.7 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -830,7 +830,7 @@
 		)
 		(uuid "792276c8-0f5e-4546-a1ab-f86825b88d68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 142.3391 90)
+			(at 60.96 130.9091 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -842,7 +842,7 @@
 	)
 	(global_label "MCU_KNOCK_F"
 		(shape input)
-		(at 99.06 173.99 0)
+		(at 99.06 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -852,7 +852,7 @@
 		)
 		(uuid "8f21ad0c-8eef-4d33-bdbc-d4b919737d44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.5919 173.99 0)
+			(at 115.5919 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -974,7 +974,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VA")
-		(at 67.31 99.06 0)
+		(at 67.31 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -983,7 +983,7 @@
 		(fields_autoplaced yes)
 		(uuid "22719b95-9fd3-4db7-ac20-5a02b08ce95c")
 		(property "Reference" "#PWR061"
-			(at 67.31 102.87 0)
+			(at 67.31 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -992,7 +992,7 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 67.3099 95.25 90)
+			(at 67.3099 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1001,7 +1001,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 99.06 0)
+			(at 67.31 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1010,7 +1010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 99.06 0)
+			(at 67.31 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1019,7 +1019,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 67.31 99.06 0)
+			(at 67.31 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1041,7 +1041,7 @@
 	)
 	(symbol
 		(lib_id "knock:Module-knock-0.2")
-		(at 48.26 163.83 0)
+		(at 48.26 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1050,7 +1050,7 @@
 		(fields_autoplaced yes)
 		(uuid "369c9c3d-a9b1-4d04-ac7f-24316b640d7b")
 		(property "Reference" "M5"
-			(at 91.44 167.6714 0)
+			(at 91.44 156.2414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1058,7 +1058,7 @@
 			)
 		)
 		(property "Value" "Module-knock-0.2"
-			(at 91.44 170.2114 0)
+			(at 91.44 158.7814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1066,7 +1066,7 @@
 			)
 		)
 		(property "Footprint" "hellen_knock:knock"
-			(at 64.008 170.434 0)
+			(at 64.008 159.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1075,7 +1075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 163.83 0)
+			(at 48.26 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1084,7 +1084,7 @@
 			)
 		)
 		(property "Description" "Hellen-One Knock Pre-amplifier Module"
-			(at 86.868 162.052 0)
+			(at 86.868 150.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1201,7 +1201,7 @@
 	)
 	(symbol
 		(lib_id "knock:Module-knock-0.2")
-		(at 49.53 107.95 0)
+		(at 49.53 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1210,7 +1210,7 @@
 		(fields_autoplaced yes)
 		(uuid "43d2c9b6-ad70-4053-bde6-e348ac27e3a2")
 		(property "Reference" "M6"
-			(at 92.71 111.7914 0)
+			(at 92.71 90.2014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1218,7 +1218,7 @@
 			)
 		)
 		(property "Value" "Module-knock-0.2"
-			(at 92.71 114.3314 0)
+			(at 92.71 92.7414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1226,7 @@
 			)
 		)
 		(property "Footprint" "hellen_knock:knock"
-			(at 65.278 114.554 0)
+			(at 65.278 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,7 +1235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 107.95 0)
+			(at 49.53 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,7 +1244,7 @@
 			)
 		)
 		(property "Description" "Hellen-One Knock Pre-amplifier Module"
-			(at 88.138 106.172 0)
+			(at 88.138 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1278,7 +1278,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 133.35 0)
+		(at 64.77 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1287,7 +1287,7 @@
 		(fields_autoplaced yes)
 		(uuid "9717f48f-fcb7-45c6-adb1-48e01b8fd7dd")
 		(property "Reference" "#PWR046"
-			(at 64.77 139.7 0)
+			(at 64.77 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1296,7 +1296,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 138.43 0)
+			(at 64.77 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1304,7 +1304,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 133.35 0)
+			(at 64.77 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1313,7 +1313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 133.35 0)
+			(at 64.77 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1322,7 +1322,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 133.35 0)
+			(at 64.77 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1411,7 +1411,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 187.96 0)
+		(at 63.5 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1420,7 +1420,7 @@
 		(fields_autoplaced yes)
 		(uuid "ccf5b6d8-08c4-44fd-ab91-be7b89d08983")
 		(property "Reference" "#PWR021"
-			(at 63.5 194.31 0)
+			(at 63.5 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +1429,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 193.04 0)
+			(at 63.5 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1437,7 +1437,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 187.96 0)
+			(at 63.5 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1446,7 +1446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 187.96 0)
+			(at 63.5 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1455,7 +1455,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 187.96 0)
+			(at 63.5 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,7 +1477,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VA")
-		(at 66.04 153.67 0)
+		(at 66.04 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1486,7 +1486,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3587847-12a6-46f9-810d-3919e7b60cd7")
 		(property "Reference" "#PWR062"
-			(at 66.04 157.48 0)
+			(at 66.04 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,7 +1495,7 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 66.0399 149.86 90)
+			(at 66.0399 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,7 +1504,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 153.67 0)
+			(at 66.04 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 153.67 0)
+			(at 66.04 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +1522,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 66.04 153.67 0)
+			(at 66.04 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)

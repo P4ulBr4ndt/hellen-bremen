@@ -474,7 +474,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 1.0,
+        "clearance": 0.9,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -482,7 +482,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Extreme",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(216, 0, 255)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.0,
         "via_diameter": 2.0,
@@ -499,7 +499,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Medium",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 219, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.6,
@@ -516,7 +516,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 120, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 1.0,
@@ -533,7 +533,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Strong",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 15)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.4,
         "via_diameter": 1.4,
@@ -782,10 +782,6 @@
     [
       "0ac5bb44-b3ea-4d91-97f2-4ef1e9f55a26",
       "MCU"
-    ],
-    [
-      "c821ec8f-5107-4775-a1b2-7b03d20e14b3",
-      "Power"
     ],
     [
       "c21a1b91-ddb8-4e22-b099-7bd7440ec482",

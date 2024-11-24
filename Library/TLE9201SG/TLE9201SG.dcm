@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLE9201SG
+D Infineon TLE9201SG, BLDC Motor Driver IC, 28 V 6A 12-Pin, DSO-12-17
+K
+F https://www.infineon.com/cms/en/product/packages/PG-DSO/PG-DSO-12-17/
+$ENDCMP
+#
+#End Doc Library

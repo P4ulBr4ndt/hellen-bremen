@@ -747,7 +747,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "8d9c9734-9cd1-4ae4-a442-47629827ab25")
 	)
-	(model "${KIPRJMOD}/ul_RNBD451PE-I100/WBZ451_LGA_REV3P0-WOUFL.step"
+	(model "${KIPRJMOD}/Library/ul_RNBD451PE-I100/WBZ451_LGA_REV3P0-WOUFL.step"
 		(offset
 			(xyz 8 -10 0.5)
 		)
