@@ -11,5 +11,5 @@
   (lib (name "ISL9V3040D3ST")(type "KiCad")(uri "${KIPRJMOD}/Library/ul_ISL9V3040D3ST/KiCADv6/2024-11-17_21-19-40.kicad_sym")(options "")(descr ""))
   (lib (name "wbo")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/wbo/0.5/wbo.kicad_sym")(options "")(descr ""))
   (lib (name "TLE9201SG")(type "KiCad")(uri "${KIPRJMOD}/Library/TLE9201SG/TLE9201SG.kicad_sym")(options "")(descr ""))
-  (lib (name "USB4500-03-0-A")(type "KiCad")(uri "${KIPRJMOD}/Library/USB4500-03-0-A/USB4500-03-0-A.kicad_sym")(options "")(descr ""))
+  (lib (name "DMN6040SK3_13")(type "KiCad")(uri "${KIPRJMOD}/Library/DMN6040SK3_13/KiCADv6/2024-11-25_20-57-19.kicad_sym")(options "")(descr ""))
 )
