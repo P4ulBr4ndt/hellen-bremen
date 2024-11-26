@@ -13,7 +13,7 @@ C15,33.44mm,75.4mm,Bottom,270.0
 C16,36.45mm,75.4mm,Bottom,270.0
 C17,39.46mm,75.4mm,Bottom,270.0
 IC1,28.456mm,58.525mm,Bottom,180.0
-R14,29.95mm,66.2mm,Bottom,90.0
+R14,38.0mm,66.24mm,Bottom,270.0
 C1,83.299mm,78.486mm,Top,0.0
 C2,83.594mm,76.454mm,Top,0.0
 C3,88.125mm,98.552mm,Top,0.0
