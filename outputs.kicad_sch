@@ -4239,7 +4239,7 @@
 		)
 		(uuid "fd0df69a-67c4-4029-9032-a4fbf3fe3f3d")
 	)
-	(text "COOLANT FAN PULLS AROUND 4A WHEN CONSTANT 100%,\nINITIALLY PULLING UP TO 8A FOR GETTING SPINNING\nHARLEY USES: https://www.onsemi.com/pdf/datasheet/huf76629d3s-d.pdf\nPOSSIBLE: https://www.digikey.de/de/products/detail/onsemi/HUF76629D3ST/4553106\nAND: https://www.digikey.de/de/products/detail/diodes-incorporated/DMN6040SK3-13/8545933"
+	(text "COOLANT FAN PULLS AROUND 4A WHEN CONSTANT 100%,\nINITIALLY PULLING UP TO 8A FOR GETTING SPINNING\nHARLEY USES: HUFA76429D3\nPOSSIBLE: https://www.digikey.de/de/products/detail/onsemi/HUF76629D3ST/4553106\nAND: https://www.digikey.de/de/products/detail/diodes-incorporated/DMN6040SK3-13/8545933"
 		(exclude_from_sim no)
 		(at 307.34 79.502 0)
 		(effects
@@ -4289,7 +4289,7 @@
 		)
 		(uuid "29afc1bb-6c59-4b3f-89d6-a097baf6e547")
 	)
-	(text "H2OS Heaters are PWM Controlled and max out at about 0.9 Amps\nat room temperature,then reducing with coming heat"
+	(text "H2OS Heaters are PWM Controlled and max out at about 0.9 Amps\nat room temperature, then reducing with coming heat"
 		(exclude_from_sim no)
 		(at 304.292 158.496 0)
 		(effects
@@ -4301,6 +4301,19 @@
 			)
 		)
 		(uuid "40225014-db4d-4698-a5b0-5b3aee2ef733")
+	)
+	(text "Harley Uses:\nhttps://www.mouser.de/ProductDetail/onsemi/FGB3040G2-F085C?qs=2WXlatMagcHzMRj1hscbYQ%3D%3D"
+		(exclude_from_sim no)
+		(at 103.124 130.302 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 2 92 76 1)
+			)
+		)
+		(uuid "5dc4fd03-5849-4b6c-8c2f-988066a77f13")
 	)
 	(text "865080545012 Würth"
 		(exclude_from_sim no)
@@ -7359,13 +7372,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "7d2fa478-df3b-4ba3-8538-8fade717bab1")
+			(uuid "7d2fa478-df3b-4ba3-8538-8fade717bab2")
 		)
 		(pin "1"
-			(uuid "55aed358-5930-4721-847a-009ee78c731a")
+			(uuid "55aed358-5930-4721-847a-009ee78c731b")
 		)
 		(pin "3"
-			(uuid "a8005037-4308-43ea-b091-7385ecf05e2b")
+			(uuid "a8005037-4308-43ea-b091-7385ecf05e2c")
 		)
 		(instances
 			(project ""
