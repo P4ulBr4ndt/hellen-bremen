@@ -3619,7 +3619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:MOD39_15p5X20p7X2p8_ZSX_MCH"
+		(property "Footprint" "RNBD451PE:MOD39_15p5X20p7X2p8_ZSX_MCH"
 			(at 116.84 64.77 0)
 			(effects
 				(font
