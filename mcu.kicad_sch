@@ -5330,6 +5330,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 27.94) (xy 248.92 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27088e88-df79-499a-a6ff-bd28b79ee53f")
+	)
+	(wire
+		(pts
 			(xy 160.02 81.28) (xy 168.91 81.28)
 		)
 		(stroke
@@ -5987,6 +5997,16 @@
 			)
 		)
 		(uuid "4d669af2-e10b-41b2-a38f-f89afa76dd0b")
+	)
+	(text "TODO: Does this work here?"
+		(exclude_from_sim no)
+		(at 257.048 25.146 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6936ff9c-b32f-4d89-afe8-c121d8283942")
 	)
 	(text "TODO: Do we really need post CAT?"
 		(exclude_from_sim no)
@@ -6730,6 +6750,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ETC_DIS"
+		(shape input)
+		(at 248.92 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd04c424-b218-4236-96ab-85bf0a6dd16e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.3437 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
