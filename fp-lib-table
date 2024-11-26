@@ -13,4 +13,5 @@
   (lib (name "kicad6-libraries")(type "KiCad")(uri "${KIPRJMOD}/kicad6-libraries")(options "")(descr ""))
   (lib (name "TLE9201SG")(type "KiCad")(uri "${KIPRJMOD}/Library/TLE9201SG")(options "")(descr ""))
   (lib (name "DMN6040SK3_13")(type "KiCad")(uri "${KIPRJMOD}/Library/DMN6040SK3_13/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "BUK9K52-60E")(type "KiCad")(uri "${KIPRJMOD}/Library/BUK9K52-60E")(options "")(descr ""))
 )
