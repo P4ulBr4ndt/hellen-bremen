@@ -4916,8 +4916,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.6)
-				(bold yes)
+				(thickness 0.25)
 				(color 43 255 15 1)
 			)
 		)
@@ -4935,7 +4934,7 @@
 		)
 		(uuid "07fc50f6-51aa-46d6-95df-ee4f7a249853")
 	)
-	(text "INJECTORS MEASURED TO TAKE MAX 1A EACH WHEN OPEN\nVNLD5160TR-E should be fine"
+	(text "INJECTORS MEASURED TO TAKE MAX 1A EACH WHEN OPEN\nVNLD5160TR-E should be fine\nHARLEY uses 2N06L35"
 		(exclude_from_sim no)
 		(at 103.124 61.722 0)
 		(effects
@@ -4960,7 +4959,7 @@
 		)
 		(uuid "2ffe1ff1-80be-42b4-b8b0-bdc67f5a8d1b")
 	)
-	(text "H2OS Heaters are PWM Controlled and max out at about 0.9 Amps\nat room temperature, then reducing with heat coming.\nVNLD5160TR-E should work. Will test"
+	(text "H2OS Heaters are PWM Controlled and max out at about 0.9 Amps\nat room temperature, then reducing with heat coming.\nVNLD5160TR-E should work. Will test\nHD uses https://www.vishay.com/docs/71506/sq4946aey.pdf"
 		(exclude_from_sim no)
 		(at 306.578 156.21 0)
 		(effects
@@ -4981,10 +4980,22 @@
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
-				(color 43 255 15 1)
+				(color 255 238 0 1)
 			)
 		)
 		(uuid "4e3a4491-205e-424d-b276-3c7c5fefe01f")
+	)
+	(text "Harley Uses:\nhttps://www.mouser.de/ProductDetail/onsemi/FGB3040G2-F085C?qs=2WXlatMagcHzMRj1hscbYQ%3D%3D\nISL9V3040D3ST should work though"
+		(exclude_from_sim no)
+		(at 98.806 278.13 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+				(color 43 255 15 1)
+			)
+		)
+		(uuid "614f0996-8f5c-466d-bf1f-d2672117acea")
 	)
 	(text "ACR"
 		(exclude_from_sim no)
@@ -5004,8 +5015,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.6)
-				(bold yes)
+				(thickness 0.25)
 				(color 43 255 15 1)
 			)
 		)
@@ -5074,7 +5084,7 @@
 	)
 	(text "CCFC & HO2HTR"
 		(exclude_from_sim no)
-		(at 307.34 217.424 0)
+		(at 308.102 219.71 0)
 		(effects
 			(font
 				(size 6 6)
@@ -5086,7 +5096,7 @@
 	)
 	(text "H2OS Heaters"
 		(exclude_from_sim no)
-		(at 308.61 167.894 0)
+		(at 307.34 171.704 0)
 		(effects
 			(font
 				(size 6 6)
@@ -5098,13 +5108,13 @@
 	)
 	(text "CCFC: Harley uses 2N06L35 TODO!"
 		(exclude_from_sim no)
-		(at 306.07 210.82 0)
+		(at 306.832 213.106 0)
 		(effects
 			(font
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
-				(color 43 255 15 1)
+				(color 255 238 0 1)
 			)
 		)
 		(uuid "effa880e-f7c3-46f4-9878-b81f44095f3f")

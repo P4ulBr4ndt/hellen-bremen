@@ -5808,7 +5808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HD:TE81PINHD"
+		(property "Footprint" "HD:HarleyDavidsonDelphi81"
 			(at 110.744 88.138 0)
 			(effects
 				(font
