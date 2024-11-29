@@ -2563,6 +2563,18 @@
 		(uuid "0d487bd0-72f1-40b3-bfd9-0c1f34e22214")
 	)
 	(no_connect
+		(at 93.98 120.65)
+		(uuid "1c09cebd-48d7-4f7c-9c9d-95d500be74b5")
+	)
+	(no_connect
+		(at 127 118.11)
+		(uuid "317c931d-a52c-4543-b86c-abceef8d480c")
+	)
+	(no_connect
+		(at 252.73 111.76)
+		(uuid "4cbbb0cb-41d1-49ab-9988-424a462b8ac1")
+	)
+	(no_connect
 		(at 127 97.79)
 		(uuid "90661e1b-fc3a-4f33-a0c7-3184d57204f4")
 	)
@@ -2603,6 +2615,16 @@
 			(type default)
 		)
 		(uuid "0aa86e76-5374-45d4-a071-c3a58c9671db")
+	)
+	(wire
+		(pts
+			(xy 127 120.65) (xy 135.89 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf8803d-9f7e-46f0-b4cb-647c96b2fcfc")
 	)
 	(wire
 		(pts
@@ -2906,7 +2928,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 111.76) (xy 204.47 111.76)
+			(xy 195.58 111.76) (xy 204.47 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2983,16 +3005,6 @@
 			(type default)
 		)
 		(uuid "a3f81bbe-75c8-4e53-9d55-d3d97ee0631d")
-	)
-	(wire
-		(pts
-			(xy 127 118.11) (xy 135.89 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5cf4085-59dc-4aee-ae3d-948fe4c1b20d")
 	)
 	(wire
 		(pts
@@ -3194,17 +3206,7 @@
 		)
 		(uuid "f610ff2e-6a17-4d3b-ac97-c9cbe6c38082")
 	)
-	(text "TODO: PSP = IGNITION BASED?"
-		(exclude_from_sim no)
-		(at 180.34 100.838 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "286d6484-7b03-4c60-bb10-c16a3d5fc04c")
-	)
-	(text "TODO:\nDo we need to connect PSP2? Like connect it directly to PSP1 or sth? Measure at OEM ECU.\nDONE: GEARSENS analyze the signal -> Kind of analog?\nDONE: AM POSITION = FICMPSNS Hall effect or what is that?\nKnock Sensor LOW signals not needed?\n"
+	(text "All the grounds can be the same shared ground\n12V can be taken from PSP1 ignoring V12BAT and PSP2 completely.\nConnect PSP1 TO V12 RAW PERM AND VIGN\n5VP can be used for 5V sensor output"
 		(exclude_from_sim no)
 		(at 48.006 28.448 0)
 		(effects
@@ -3240,7 +3242,7 @@
 	)
 	(global_label "PWR_EN"
 		(shape input)
-		(at 200.66 111.76 180)
+		(at 195.58 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3250,7 +3252,7 @@
 		)
 		(uuid "0500f922-ff01-4b9c-ab65-76dbaa652638")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.2363 111.76 0)
+			(at 185.1563 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3344,6 +3346,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+12V_PSP"
+		(shape input)
+		(at 195.58 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "335e9b2f-090d-4f66-acdf-31a6717e89e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.7977 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4118,28 +4142,6 @@
 			)
 		)
 	)
-	(global_label "+12V_BAT"
-		(shape input)
-		(at 135.89 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ee944736-3be4-4520-b57d-06866c0354ce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.249 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IN_IAT"
 		(shape input)
 		(at 135.89 125.73 0)
@@ -4180,28 +4182,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+12V_BAT"
-		(shape input)
-		(at 195.58 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fcfdce65-cb67-4425-b434-0d4363448b60")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.221 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4649,6 +4629,73 @@
 			(project "hellenbremen"
 				(path "/83409e39-90d0-4c85-be2e-bd292bea7c12"
 					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VP")
+		(at 135.89 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cfbfa07-f06b-45fd-a1ab-87b137776dd0")
+		(property "Reference" "#PWR084"
+			(at 132.08 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 139.7 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 135.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06af9fec-af6f-4a0a-99f2-83de220ae110")
+		)
+		(instances
+			(project "hellenbremen"
+				(path "/83409e39-90d0-4c85-be2e-bd292bea7c12"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
