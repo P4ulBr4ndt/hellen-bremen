@@ -2575,6 +2575,10 @@
 		(uuid "4cbbb0cb-41d1-49ab-9988-424a462b8ac1")
 	)
 	(no_connect
+		(at 204.47 99.06)
+		(uuid "7c069d35-700a-4a86-97af-813e111fff25")
+	)
+	(no_connect
 		(at 127 97.79)
 		(uuid "90661e1b-fc3a-4f33-a0c7-3184d57204f4")
 	)
@@ -3108,16 +3112,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 99.06) (xy 204.47 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d938be3d-61fc-45a0-b429-5f183a32d322")
-	)
-	(wire
-		(pts
 			(xy 127 95.25) (xy 135.89 95.25)
 		)
 		(stroke
@@ -3205,19 +3199,6 @@
 			(type default)
 		)
 		(uuid "f610ff2e-6a17-4d3b-ac97-c9cbe6c38082")
-	)
-	(text "All the grounds can be the same shared ground\n12V can be taken from PSP1 ignoring V12BAT and PSP2 completely.\nConnect PSP1 TO V12 RAW PERM AND VIGN\n5VP can be used for 5V sensor output"
-		(exclude_from_sim no)
-		(at 48.006 28.448 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "83f26dd0-2c28-465a-ab2c-1ef10ded00a3")
 	)
 	(text "Hellen-Bremen"
 		(exclude_from_sim no)
@@ -3346,28 +3327,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+12V_PSP"
-		(shape input)
-		(at 195.58 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "335e9b2f-090d-4f66-acdf-31a6717e89e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.7977 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
