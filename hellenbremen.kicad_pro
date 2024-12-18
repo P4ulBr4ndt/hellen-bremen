@@ -490,7 +490,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.6,
+        "clearance": 0.4,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -524,7 +524,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.5,
+        "clearance": 0.4,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -541,7 +541,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.5,
+        "clearance": 0.4,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -596,11 +596,11 @@
         "pattern": "ACR_1"
       },
       {
-        "netclass": "Strong",
+        "netclass": "Medium",
         "pattern": "FIVVTC"
       },
       {
-        "netclass": "Strong",
+        "netclass": "Medium",
         "pattern": "PRGSEL"
       }
     ]
